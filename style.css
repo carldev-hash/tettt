@@ -72,3 +72,12 @@ body {
 .buttons button:nth-child(2) {
     color: red;
 }
+
+.buttons button:hover {
+    background:green;
+    color:white;
+    transition: 300ms ease-in-out;
+}
+.buttons button:nth-child(2):hover {
+    background-color: red;
+}
